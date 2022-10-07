@@ -6,7 +6,7 @@ public class Main {
         System.out.println("Max:" + manager.max());
         System.out.println("Min:" + manager.min());
 
-        SalesManager day1 = new SalesManager(new int[]{35, 38, 36, 40, 39, 45, 43});
+        SalesManager day1 = new SalesManager(new long[]{35, 38, 36, 40, 39, 45, 43});
         System.out.println("Максимальное количество проданных позиций в течение дня " + day1.max() + " шт");
         System.out.println("Среднее количество проданных позиций в течение дня " + day1.average() + " шт");
 
