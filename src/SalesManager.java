@@ -30,7 +30,7 @@ public class SalesManager {
         for (long sale : sales) {
             sum += sale;
         }
-        return (sum - min() - max()) / (sales.length - 2);
+        return (sum - min()  / (sales.length - 2);
     }
 }
 
